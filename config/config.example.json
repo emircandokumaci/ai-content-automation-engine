@@ -1,0 +1,17 @@
+{
+  "publishing_enabled": false,
+  "timezone": "UTC",
+  "category_id": "28",
+  "region_code": "US",
+  "max_uploads_per_day": 1,
+  "channel_mutex_enabled": true,
+  "channel_lock_stale_seconds": 900,
+  "max_preupload_retries": 3,
+  "safe_claim_retry_seconds": 900,
+  "reconciliation_timeout_seconds": 1800,
+  "dispatch_cooldown_seconds": 300,
+  "verification_interval_seconds": 300,
+  "publisher_webhook": "http://127.0.0.1:5678/webhook/publish",
+  "verifier_webhook": "http://127.0.0.1:5678/webhook/verify",
+  "compliance_webhook": "http://127.0.0.1:5678/webhook/compliance"
+}
